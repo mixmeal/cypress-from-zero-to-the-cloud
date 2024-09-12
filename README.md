@@ -1,28 +1,35 @@
-# 🌲 Cypress, from Zero to the Cloud ☁️
+# TAT-CSC
 
-👋 Welcome!
+Sample project to demonstrate my progress in course cypress-from-zero-to-the-cloud [https://www.udemy.com/course/cypress-from-zero-to-the-cloud/].
 
-It's great to have you here. I'm sure you will love this course. ❤️
+## Pre-requirements
 
-## What you will learn from the course
+It is required to have git, Node.js and npm installed to clone and run this project.
 
-- How to set up a Cypress project from scratch
-- How to visit local and remote pages
-- How to deal with elements most commonly found in web applications
-- How to test file uploading
-- How to perform various assertions of expected results
-- How to create custom commands
-- How to deal with links that open in another browser tab
-- How to run tests simulating a mobile device
-- How to solve the same problems in different ways, using the [Cypress API](https://docs.cypress.io/api/table-of-contents)
-- How to create effective documentation for your automated testing project
-- How to run tests in a continuous integration (CI) workflow
-- How to integrate your CI workflow with the Cypress Cloud
+> I used versions `2.34.1`, `v18.15.0`, and `9.5.0.` of git, Node.js and npm, respectively. I suggest you use the same or later LTS versions.
 
-## Let's start
+## Installation
 
-Go to the [course structure](./lessons/_course-structure_.md) section.
+After cloning the repository and accessing it, run npm install cypress@13.1.0 --save-dev (or npm i cypress@13.1.0 -D for the short version) to install the dev dependencies.
+
+## Tests
+
+You can run the tests in headless mode or in interactive mode.
+
+## Interactive mode
+
+Run `npm run cy:open` to open the Cypress App and run the tests in interactive mode in a desktop viewport.
+Or run `npm run cy:open:mobile` to open the Cypress App and run the tests in mobile viewport.
+
+## Headless mode
+
+Run `npm test` to run the tests in headless mode in a desktop viewport.
+Or run `npm run test:mobile` to run the tests in headless mobile viewport.
+
+## Support this project
+
+If you want to support this project, leave a ⭐.
 
 ___
 
-This is a course from [**Talking About Testing School**](https://udemy.com/user/walmyr).
+This project was created by [mixmeal]
